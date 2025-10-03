@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Ian Orosz - Advogado Criminalista | Especialista em Defesa Criminal</title>
-    <meta name="description" content="Dr. Ian Orosz - Advogado Criminalista pós-graduado em Criminologia pela PUC-RS. Especialista em Direito Penal, Tribunal do Júri e defesa criminal em São Paulo. Atendimento 24h para flagrantes e urgências.">
+    
+    <!-- SEO Meta Tags -->
+    <title>Dr. Ian Orosz - Advogado Criminalista em São Paulo | Direito Penal e Criminologia PUC-RS</title>
+    <meta name="description" content="Dr. Ian Orosz, advogado criminalista especializado em Direito Penal e Criminologia pela PUC-RS. Atendimento em defesa criminal, Tribunal do Júri e consultas jurídicas em São Paulo. Atendimento 24h para emergências.">
+    <meta name="keywords" content="advogado criminalista, direito penal, criminologia, tribunal do júri, defesa criminal, advogado são paulo, consulta jurídica, direito criminal">
+    <meta name="author" content="Dr. Ian Orosz - Advogado Criminalista">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.drianoroszcriminalista.com.br">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dr. Ian Orosz - Advogado Criminalista | Direito Penal São Paulo">
+    <meta property="og:description" content="Especialista em Direito Penal e Criminologia pela PUC-RS. Defesa criminal qualificada com atendimento 24h para emergências.">
+    <meta property="og:image" content="https://www.drianoroszcriminalista.com.br/images/dr-ian-orosz.jpg">
+    <meta property="og:url" content="https://www.drianoroszcriminalista.com.br">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dr. Ian Orosz - Advogado Criminalista São Paulo">
+    <meta name="twitter:description" content="Especialista em Direito Penal e Criminologia PUC-RS. Consulta jurídica e defesa criminal.">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Dr. Ian Orosz - Advogado Criminalista",
+        "description": "Escritório de advocacia especializado em Direito Penal e Criminologia",
+        "url": "https://www.drianoroszcriminalista.com.br",
+        "telephone": "+5511982609738",
+        "email": "ianicarotavera@hotmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "addressCountry": "BR"
+        },
+        "founder": {
+            "@type": "Person",
+            "name": "Ian Orosz",
+            "jobTitle": "Advogado Criminalista",
+            "alumniOf": "PUC-RS"
+        },
+        "areaServed": "São Paulo, Brasil",
+        "serviceType": ["Direito Criminal", "Tribunal do Júri", "Consulta Jurídica"]
+    }
+    </script>
     
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
@@ -15,908 +63,15 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     
-    <!-- Meta Tags para SEO -->
-    <meta name="keywords" content="advogado criminalista, defesa criminal, tribunal do júri, OAB SP, direito penal, criminologia PUC-RS, São Paulo, flagrante 24h, urgências criminais">
-    <meta name="author" content="Dr. Ian Orosz - Advogado Criminalista">
-    <meta property="og:title" content="Dr. Ian Orosz - Advogado Criminalista">
-    <meta property="og:description" content="Especialista em Defesa Criminal com pós-graduação em Criminologia pela PUC-RS. Atendimento 24h para flagrantes.">
-    <meta property="og:type" content="website">
-
-    <style>
-        /* CSS com Identidade Visual - Azul #0a113d e Dourado */
-        :root {
-            --primary-blue: #0a113d;
-            --gold: #d4af37;
-            --gold-light: #f4e4a1;
-            --gold-dark: #b8941f;
-            --white: #ffffff;
-            --light-gray: #f8f9fa;
-            --dark-gray: #2c2c2c;
-            --border-color: #e1e8ed;
-            --whatsapp-green: #25D366;
-            --whatsapp-hover: #128C7E;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Open Sans', sans-serif;
-            line-height: 1.6;
-            color: var(--dark-gray);
-            padding-top: 70px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Animações Elegantes */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.02); }
-        }
-
-        @keyframes goldGlow {
-            0% { box-shadow: 0 0 5px var(--gold); }
-            50% { box-shadow: 0 0 20px var(--gold), 0 0 30px var(--gold); }
-            100% { box-shadow: 0 0 5px var(--gold); }
-        }
-
-        /* Banner de Urgência 24h - Vermelho */
-        .urgency-24h {
-            background: linear-gradient(45deg, #dc3545, #c82333);
-            color: var(--white);
-            padding: 15px;
-            text-align: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            font-weight: 600;
-            animation: pulse 3s infinite;
-        }
-
-        .urgency-24h a {
-            color: var(--white);
-            text-decoration: none;
-            font-weight: 700;
-            padding: 5px 15px;
-            background: var(--white);
-            color: #dc3545;
-            border-radius: 20px;
-            margin-left: 10px;
-            transition: all 0.3s ease;
-        }
-
-        .urgency-24h a:hover {
-            background: #f8f9fa;
-            transform: scale(1.05);
-        }
-
-        /* Header - Azul da Identidade Visual */
-        .header {
-            background: var(--primary-blue);
-            position: fixed;
-            top: 60px;
-            left: 0;
-            right: 0;
-            z-index: 999;
-            box-shadow: 0 4px 20px rgba(10, 17, 61, 0.3);
-        }
-
-        .navbar {
-            padding: 1rem 0;
-        }
-
-        .navbar .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .brand-logo {
-            height: 50px;
-            width: auto;
-            filter: brightness(1.1);
-        }
-
-        .nav-menu {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        .nav-link {
-            text-decoration: none;
-            color: var(--white);
-            font-weight: 500;
-            transition: color 0.3s ease;
-            position: relative;
-        }
-
-        .nav-link:hover {
-            color: var(--gold);
-        }
-
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            bottom: -5px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--gold);
-            transition: width 0.3s ease;
-        }
-
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        /* CTAs do WhatsApp com Identidade Visual */
-        .whatsapp-btn, 
-        .cta-primary {
-            background: linear-gradient(45deg, var(--whatsapp-green), #34E57B);
-            color: white !important;
-            border: none;
-            border-radius: 25px;
-            padding: 12px 24px;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .whatsapp-btn:hover,
-        .cta-primary:hover {
-            background: linear-gradient(45deg, var(--whatsapp-hover), var(--whatsapp-green));
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
-        }
-
-        .cta-primary.large {
-            padding: 16px 32px;
-            font-size: 1.1em;
-        }
-
-        .cta-urgent {
-            background: linear-gradient(45deg, var(--gold), var(--gold-dark));
-            color: var(--primary-blue) !important;
-            border: none;
-            border-radius: 25px;
-            padding: 14px 28px;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 700;
-            transition: all 0.3s ease;
-        }
-
-        .cta-urgent:hover {
-            background: linear-gradient(45deg, var(--gold-light), var(--gold));
-            transform: translateY(-2px);
-            animation: goldGlow 1s infinite;
-        }
-
-        .cta-secondary {
-            background: transparent;
-            color: var(--primary-blue);
-            border: 2px solid var(--primary-blue);
-            border-radius: 25px;
-            padding: 12px 24px;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-
-        .cta-secondary:hover {
-            background: var(--primary-blue);
-            color: var(--white);
-        }
-
-        /* Mobile Menu */
-        .mobile-menu-toggle {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-        }
-
-        .mobile-menu-toggle span {
-            width: 25px;
-            height: 3px;
-            background: var(--white);
-            margin: 3px 0;
-            transition: 0.3s;
-        }
-
-        /* Hero Section - Identidade Visual Aplicada */
-        .hero {
-            background: linear-gradient(135deg, var(--primary-blue) 0%, #1a2759 100%);
-            color: var(--white);
-            padding: 8rem 0 4rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-
-
-        .hero-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero-title {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            animation: fadeInUp 1s ease;
-        }
-
-        .highlight {
-            color: var(--gold);
-            text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
-        }
-
-        .gold-text {
-            color: var(--gold);
-        }
-
-        .hero-subtitle {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            animation: fadeInUp 1s ease 0.2s both;
-            line-height: 1.8;
-        }
-
-        .hero-stats {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-            margin-bottom: 2rem;
-            animation: fadeInUp 1s ease 0.4s both;
-        }
-
-        .stat {
-            background: rgba(212, 175, 55, 0.1);
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            padding: 1rem;
-            border-radius: 15px;
-            text-align: center;
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s ease;
-        }
-
-        .stat:hover {
-            transform: translateY(-5px);
-            background: rgba(212, 175, 55, 0.15);
-        }
-
-        .stat-icon {
-            font-size: 1.5rem;
-            color: var(--gold);
-            margin-bottom: 0.5rem;
-        }
-
-        .stat-number {
-            display: block;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--gold);
-        }
-
-        .stat-label {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-
-        .hero-cta {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            animation: fadeInUp 1s ease 0.6s both;
-        }
-
-        .urgency-banner {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 1rem;
-            background: rgba(212, 175, 55, 0.2);
-            border-radius: 10px;
-            border-left: 4px solid var(--gold);
-            animation: fadeInUp 1s ease 0.8s both;
-        }
-
-        .hero-image {
-            position: relative;
-            animation: fadeInUp 1s ease 0.3s both;
-        }
-
-        .lawyer-photo {
-            width: 100%;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(10, 17, 61, 0.5);
-            border: 3px solid var(--gold);
-        }
-
-        .credentials-badge {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            background: var(--gold);
-            color: var(--primary-blue);
-            padding: 10px 15px;
-            border-radius: 25px;
-            font-weight: 700;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
-        }
-
-        /* Section Styles */
-        .section-header {
-            text-align: center;
-            margin-bottom: 4rem;
-        }
-
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            color: var(--primary-blue);
-        }
-
-        .section-subtitle {
-            font-size: 1.1rem;
-            color: #666;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* About Section */
-        .about {
-            padding: 6rem 0;
-            background: var(--light-gray);
-        }
-
-        .about-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: center;
-        }
-
-        .about-text h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-            color: var(--primary-blue);
-        }
-
-        .about-text p {
-            margin-bottom: 1.5rem;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            text-align: justify;
-        }
-
-        .achievements {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1rem;
-            margin: 2rem 0;
-        }
-
-        .achievement {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 1rem;
-            background: var(--white);
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(10, 17, 61, 0.1);
-            border-left: 3px solid var(--gold);
-        }
-
-        .achievement i {
-            color: var(--gold);
-            font-size: 1.2rem;
-        }
-
-        .office-photo {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(10, 17, 61, 0.2);
-            border: 2px solid var(--gold);
-        }
-
-        /* Expertise Section */
-        .expertise {
-            padding: 6rem 0;
-        }
-
-        .expertise-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-bottom: 4rem;
-        }
-
-        .expertise-card {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(10, 17, 61, 0.1);
-            transition: all 0.3s ease;
-            border-top: 4px solid transparent;
-        }
-
-        .expertise-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 30px rgba(10, 17, 61, 0.2);
-        }
-
-        .expertise-card.primary {
-            border-top: 4px solid var(--gold);
-            background: linear-gradient(135deg, var(--white) 0%, #fefbf3 100%);
-        }
-
-        .expertise-card.featured {
-            border-top: 4px solid var(--primary-blue);
-            background: linear-gradient(135deg, var(--white) 0%, #f8f9fd 100%);
-        }
-
-        .card-icon {
-            background: linear-gradient(45deg, var(--gold), var(--gold-dark));
-            color: var(--primary-blue);
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
-            font-weight: bold;
-        }
-
-        .expertise-card h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            color: var(--primary-blue);
-        }
-
-        .institution {
-            color: var(--gold-dark);
-            font-weight: 700;
-            margin-bottom: 1rem;
-            background: rgba(212, 175, 55, 0.1);
-            padding: 5px 10px;
-            border-radius: 15px;
-            display: inline-block;
-        }
-
-        .services {
-            list-style: none;
-            margin: 1rem 0;
-        }
-
-        .services li {
-            padding: 0.5rem 0;
-            color: #555;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .specialty-highlight {
-            background: var(--gold);
-            color: var(--primary-blue);
-            padding: 10px 15px;
-            border-radius: 20px;
-            text-align: center;
-            margin-top: 1rem;
-            font-size: 0.9rem;
-            font-weight: 700;
-        }
-
-        .expertise-cta {
-            text-align: center;
-            background: linear-gradient(135deg, var(--primary-blue), #1a2759);
-            color: var(--white);
-            padding: 3rem;
-            border-radius: 15px;
-        }
-
-        .expertise-cta h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            color: var(--gold);
-        }
-
-        /* Testimonials */
-        .testimonials {
-            padding: 6rem 0;
-            background: var(--light-gray);
-        }
-
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        .testimonial {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(10, 17, 61, 0.1);
-            border-left: 4px solid var(--gold);
-        }
-
-        .quote-icon {
-            color: var(--gold);
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .testimonial-author {
-            margin-top: 1.5rem;
-            border-top: 1px solid var(--border-color);
-            padding-top: 1rem;
-        }
-
-        .testimonial-author strong {
-            color: var(--primary-blue);
-        }
-
-        /* Ethics Section */
-        .ethics-compliance {
-            padding: 4rem 0;
-            background: var(--primary-blue);
-            color: var(--white);
-        }
-
-        .ethics-content h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2rem;
-            text-align: center;
-            margin-bottom: 3rem;
-            color: var(--gold);
-        }
-
-        .ethics-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-
-        .ethics-item {
-            text-align: center;
-            padding: 1.5rem;
-            background: rgba(212, 175, 55, 0.1);
-            border-radius: 10px;
-        }
-
-        .ethics-item i {
-            font-size: 2rem;
-            color: var(--gold);
-            margin-bottom: 1rem;
-        }
-
-        .ethics-item h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: var(--gold);
-        }
-
-        .disclaimer {
-            background: rgba(255,255,255,0.1);
-            padding: 2rem;
-            border-radius: 10px;
-            text-align: center;
-            font-size: 0.9rem;
-            line-height: 1.8;
-            border: 1px solid rgba(212, 175, 55, 0.3);
-        }
-
-        /* Contact Section */
-        .contact {
-            padding: 6rem 0;
-        }
-
-        .contact-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: start;
-        }
-
-        .contact-info h3 {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            color: var(--primary-blue);
-        }
-
-        .contact-methods {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-
-        .contact-method {
-            background: var(--white);
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(10, 17, 61, 0.1);
-            transition: transform 0.3s ease;
-            border-top: 3px solid var(--gold);
-        }
-
-        .contact-method:hover {
-            transform: translateY(-5px);
-        }
-
-        .method-icon {
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(45deg, var(--primary-blue), #1a2759);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--gold);
-            font-size: 1.2em;
-            margin-bottom: 1rem;
-        }
-
-        .method-info h4 {
-            color: var(--primary-blue);
-            margin-bottom: 0.5rem;
-        }
-
-        .method-link {
-            color: var(--gold-dark);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-
-        .method-link:hover {
-            color: var(--gold);
-        }
-
-        .cta-box {
-            background: linear-gradient(135deg, var(--primary-blue), #1a2759);
-            color: var(--white);
-            padding: 2rem;
-            border-radius: 15px;
-            text-align: center;
-            position: sticky;
-            top: 2rem;
-            border: 2px solid var(--gold);
-        }
-
-        .cta-box h3 {
-            margin-bottom: 1rem;
-            font-size: 1.3em;
-            color: var(--gold);
-        }
-
-        .availability {
-            font-size: 0.9em;
-            opacity: 0.8;
-            margin-top: 1rem;
-        }
-
-        /* Footer */
-        .footer {
-            background: var(--primary-blue);
-            color: var(--white);
-            padding: 3rem 0 1rem;
-        }
-
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .footer-brand h3 {
-            font-family: 'Montserrat', sans-serif;
-            color: var(--gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-contact h4,
-        .footer-expertise h4 {
-            color: var(--gold);
-            margin-bottom: 1rem;
-        }
-
-        .footer-expertise ul {
-            list-style: none;
-        }
-
-        .footer-expertise li {
-            padding: 0.3rem 0;
-            opacity: 0.8;
-        }
-
-        .footer-bottom {
-            border-top: 1px solid rgba(212, 175, 55, 0.3);
-            padding-top: 2rem;
-            text-align: center;
-            opacity: 0.7;
-        }
-
-        /* Floating WhatsApp */
-        .floating-whatsapp {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-
-        .whatsapp-float {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            padding: 0;
-            justify-content: center;
-            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
-            animation: pulse 2s infinite;
-        }
-
-        .tooltip {
-            position: absolute;
-            right: 70px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: var(--primary-blue);
-            color: var(--gold);
-            padding: 8px 12px;
-            border-radius: 8px;
-            font-size: 0.8rem;
-            white-space: nowrap;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            border: 1px solid var(--gold);
-        }
-
-        .whatsapp-float:hover .tooltip {
-            opacity: 1;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            body {
-                padding-top: 120px;
-            }
-
-            .nav-menu {
-                display: none;
-            }
-
-            .mobile-menu-toggle {
-                display: flex;
-            }
-
-            .hero-content {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-                text-align: center;
-            }
-
-            .hero-title {
-                font-size: 2rem;
-            }
-
-            .hero-stats {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .hero-cta {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .about-content {
-                grid-template-columns: 1fr;
-            }
-
-            .achievements {
-                grid-template-columns: 1fr;
-            }
-
-            .expertise-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .contact-content {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-
-            .contact-methods {
-                grid-template-columns: 1fr;
-            }
-
-            .cta-box {
-                position: static;
-            }
-
-            .footer-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .floating-whatsapp {
-                bottom: 80px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .urgency-24h {
-                font-size: 0.9rem;
-                padding: 12px;
-            }
-
-            .section-title {
-                font-size: 2rem;
-            }
-
-            .hero-cta a {
-                font-size: 0.9rem;
-                padding: 10px 20px;
-            }
-        }
-    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Banner de Urgência 24h -->
     <div class="urgency-24h">
         <i class="fas fa-exclamation-triangle"></i>
-        <strong>🚑 PRESO EM FLAGRANTE? LIGUE AGORA! ATENDIMENTO 24H - NÃO PERCA TEMPO!</strong>
-        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20tenho%20uma%20urgência%20criminal%20que%20precisa%20de%20atendimento%20imediato">
+        <strong>ATENDIMENTO 24H PARA EMERGÊNCIAS CRIMINAIS E CONSULTAS JURÍDICAS</strong>
+        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20atendimento%20jurídico%20urgente">
             Contate Agora
         </a>
     </div>
@@ -933,7 +88,7 @@
                     <a href="#about" class="nav-link">Sobre</a>
                     <a href="#expertise" class="nav-link">Especialidades</a>
                     <a href="#contact" class="nav-link">Contato</a>
-                    <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20gostaria%20de%20contratar%20seus%20serviços%20jurídicos" target="_blank" class="whatsapp-btn">
+                    <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20gostaria%20de%20agendar%20uma%20consulta%20jurídica" target="_blank" class="whatsapp-btn">
                         <i class="fab fa-whatsapp"></i> WhatsApp
                     </a>
                 </div>
@@ -957,18 +112,18 @@
                         <span class="gold-text">Direito Penal e Criminologia PUC-RS</span>
                     </h1>
                     <p class="hero-subtitle">
-                        Advogado Criminalista especializado em <strong>Direito Penal e Criminologia pela PUC-RS</strong>. 
-                        <strong>Mais de 500 casos defendidos com sucesso</strong> em Tribunal do Júri e Vara Criminal. 
+                        Advogado criminalista especializado em <strong>Direito Penal e Criminologia pela PUC-RS</strong>. 
+                        <strong>Experiência comprovada em defesa criminal</strong> e atuação em Tribunal do Júri. 
                         Presidente da Comissão de Direito de Trânsito da OAB São Miguel Paulista. 
-                        <strong>Atendimento 24h para flagrantes</strong> - Sua liberdade não pode esperar.
+                        <strong>Atendimento 24h para emergências jurídicas</strong> - Consulta jurídica especializada.
                     </p>
                     <div class="hero-stats">
                         <div class="stat">
                             <div class="stat-icon">
                                 <i class="fas fa-university"></i>
                             </div>
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">Casos Defendidos</span>
+                            <span class="stat-number">PUC-RS</span>
+                            <span class="stat-label">Criminologia</span>
                         </div>
                         <div class="stat">
                             <div class="stat-icon">
@@ -981,32 +136,32 @@
                             <div class="stat-icon">
                                 <i class="fas fa-users"></i>
                             </div>
-                            <span class="stat-number">95%</span>
-                            <span class="stat-label">Taxa de Êxito</span>
+                            <span class="stat-number">Júri</span>
+                            <span class="stat-label">Especialista</span>
                         </div>
                         <div class="stat">
                             <div class="stat-icon">
                                 <i class="fas fa-clock"></i>
                             </div>
                             <span class="stat-number">24H</span>
-                            <span class="stat-label">Urgências</span>
+                            <span class="stat-label">Emergências</span>
                         </div>
                     </div>
                     <div class="hero-cta">
-                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian%20Orosz,%20preciso%20de%20defesa%20criminal%20especializada" 
+                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian%20Orosz,%20gostaria%20de%20agendar%20uma%20consulta%20jurídica" 
                            target="_blank" class="cta-primary">
                             <i class="fab fa-whatsapp"></i>
-                            Quero Minha Defesa Agora
+                            Agendar Consulta Jurídica
                         </a>
-                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20tenho%20uma%20urgência%20criminal%20que%20precisa%20de%20atendimento%20imediato" 
+                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20atendimento%20jurídico%20urgente" 
                            target="_blank" class="cta-urgent">
                             <i class="fas fa-exclamation-triangle"></i>
-                            Urgência 24h
+                            Emergência 24h
                         </a>
                     </div>
                     <div class="urgency-banner">
                         <i class="fas fa-shield-alt"></i>
-                        <span>"Sua liberdade é o meu compromisso" - Defesa criminal com estratégia e resultados</span>
+                        <span>Defesa técnica especializada com ética profissional e conhecimento jurídico</span>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -1025,23 +180,24 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Por que Escolher o <span class="gold-text">Dr. Ian Orosz?</span></h2>
-                <p class="section-subtitle">Excelência acadêmica PUC-RS e resultados comprovados em defesa criminal</p>
+                <h2 class="section-title">Sobre o <span class="gold-text">Dr. Ian Orosz</span></h2>
+                <p class="section-subtitle">Formação acadêmica especializada e atuação ética no Direito Criminal</p>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Quando Sua Liberdade Está em Jogo, Faça a Escolha Certa</h3>
+                    <h3>Qualificação Profissional e Compromisso Ético</h3>
                     <p>
-                        <strong>Dr. Ian Orosz</strong> não é apenas mais um advogado. É um especialista em 
-                        <strong>Direito Penal e Criminologia formado pela prestigiosa PUC-RS</strong>, uma das 
-                        melhores universidades do país. Como <strong>Presidente da Comissão de Direito de Trânsito 
-                        da OAB São Miguel Paulista</strong>, possui reconhecimento e confiança dos pares.
+                        <strong>Dr. Ian Orosz</strong> é advogado criminalista com 
+                        formação especializada em <strong>Direito Penal e Criminologia pela prestigiosa PUC-RS</strong>, 
+                        uma das mais renomadas instituições de ensino do país. Atua como 
+                        <strong>Presidente da Comissão de Direito de Trânsito da OAB São Miguel Paulista</strong>, 
+                        demonstrando reconhecimento profissional e comprometimento com a advocacia.
                     </p>
                     <p>
-                        Com <strong>mais de 500 casos defendidos</strong> e expertise comprovada em 
-                        <strong>Tribunal do Júri</strong>, Dr. Ian entende que cada minuto conta quando sua 
-                        liberdade está ameaçada. Sua estratégia: <em>"Defesa agressiva, ética impecável, 
-                        resultados reais"</em>. Não aceite menos quando sua vida está nas mãos da Justiça.
+                        Com especialização técnica em <strong>Tribunal do Júri</strong> e sólida formação em Direito, 
+                        Dr. Ian oferece atendimento jurídico qualificado em questões criminais. Sua atuação 
+                        fundamenta-se nos princípios éticos da advocacia, proporcionando orientação especializada 
+                        dentro dos parâmetros legais estabelecidos pelo Estatuto da Advocacia e Código de Ética da OAB.
                     </p>
                     <div class="achievements">
                         <div class="achievement">
@@ -1054,7 +210,7 @@
                         </div>
                         <div class="achievement">
                             <i class="fas fa-users"></i>
-                            <span>+500 Casos de Tribunal do Júri</span>
+                            <span>Especialista em Tribunal do Júri</span>
                         </div>
                         <div class="achievement">
                             <i class="fas fa-certificate"></i>
@@ -1062,7 +218,7 @@
                         </div>
                         <div class="achievement">
                             <i class="fas fa-balance-scale"></i>
-                            <span>Taxa de 95% de Sucesso</span>
+                            <span>Formação em Múltiplas Áreas do Direito</span>
                         </div>
                         <div class="achievement">
                             <i class="fas fa-laptop-code"></i>
@@ -1070,10 +226,10 @@
                         </div>
                     </div>
                     <div class="about-cta">
-                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20gostaria%20de%20uma%20orientação%20jurídica%20sobre%20meu%20caso" 
+                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20gostaria%20de%20uma%20orientação%20jurídica" 
                            target="_blank" class="cta-primary">
                             <i class="fab fa-whatsapp"></i>
-                            Garantir Minha Defesa Agora
+                            Solicitar Orientação Jurídica
                         </a>
                     </div>
                 </div>
@@ -1098,18 +254,18 @@
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>Direito Penal e Criminologia</h3>
-                    <p class="institution">🎓 PUC-RS - Pontifícia Universidade Católica</p>
-                    <p><strong>Área principal de atuação:</strong> Orientação jurídica e defesa técnica em questões penais com fundamentação científica em criminologia.</p>
+                    <p class="institution">PUC-RS - Pontifícia Universidade Católica</p>
+                    <p><strong>Área principal de atuação:</strong> Orientação jurídica e assessoria técnica em questões penais com fundamentação científica em criminologia.</p>
                     <ul class="services">
-                        <li>🔹 Orientação em procedimentos criminais</li>
-                        <li>🔹 Defesa técnica especializada</li>
-                        <li>🔹 Análise de inquéritos policiais</li>
-                        <li>🔹 Questões de legislação penal</li>
-                        <li>🔹 Consultoria em Direito Criminal</li>
-                        <li>🔹 Atendimento para flagrantes 24h</li>
+                        <li>Orientação em procedimentos criminais</li>
+                        <li>Assessoria técnica especializada</li>
+                        <li>Análise de inquéritos policiais</li>
+                        <li>Questões de legislação penal</li>
+                        <li>Consulta jurídica em Direito Criminal</li>
+                        <li>Atendimento para emergências 24h</li>
                     </ul>
                     <div class="specialty-highlight">
-                        <strong>⚖️ Especialização Principal</strong>
+                        <strong>Especialização Principal</strong>
                     </div>
                 </div>
                 
@@ -1117,18 +273,18 @@
                     <div class="card-icon">
                         <i class="fas fa-users"></i>
                     </div>
-                    <h3>🏛️ Tribunal do Júri</h3>
+                    <h3>Tribunal do Júri</h3>
                     <p class="institution">I9 - Especialização Avançada</p>
-                    <p><strong>Técnica processual especializada</strong> para atuação em procedimentos do Tribunal do Júri.</p>
+                    <p><strong>Técnica processual especializada</strong> para atuação em procedimentos do Tribunal do Júri Popular.</p>
                     <ul class="services">
-                        <li>🔹 Crimes dolosos contra a vida</li>
-                        <li>🔹 Procedimento do Júri Popular</li>
-                        <li>🔹 Técnica de sustentação oral</li>
-                        <li>🔹 Recursos em segunda instância</li>
-                        <li>🔹 Análise técnica processual</li>
+                        <li>Crimes dolosos contra a vida</li>
+                        <li>Procedimento do Júri Popular</li>
+                        <li>Técnica de sustentação oral</li>
+                        <li>Recursos em segunda instância</li>
+                        <li>Análise técnica processual</li>
                     </ul>
                     <div class="specialty-highlight">
-                        <strong>⭐ Área de Especialização Técnica</strong>
+                        <strong>Área de Especialização Técnica</strong>
                     </div>
                 </div>
 
@@ -1142,7 +298,7 @@
                     <ul class="services">
                         <li>Crimes cibernéticos</li>
                         <li>LGPD - Lei Geral de Proteção de Dados</li>
-                        <li>Questões digitais</li>
+                        <li>Questões jurídicas digitais</li>
                     </ul>
                 </div>
 
@@ -1152,7 +308,7 @@
                     </div>
                     <h3>Direito do Trabalho</h3>
                     <p class="institution">IMES</p>
-                    <p>Orientação em questões trabalhistas.</p>
+                    <p>Orientação em questões trabalhistas e direitos do trabalhador.</p>
                 </div>
 
                 <div class="expertise-card">
@@ -1175,12 +331,12 @@
             </div>
             
             <div class="expertise-cta">
-                <h3>⚠️ Sua Liberdade Não Pode Esperar</h3>
-                <p>Cada minuto conta em questões criminais. Fale agora com quem tem <strong>95% de taxa de sucesso</strong></p>
-                <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20defesa%20criminal%20urgente.%20Meu%20caso%20é:%20" 
+                <h3>Precisa de Orientação Jurídica?</h3>
+                <p>Entre em contato com Dr. Ian para consultoria especializada conforme sua necessidade</p>
+                <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20consultoria%20jurídica%20especializada" 
                    target="_blank" class="cta-primary large">
                     <i class="fab fa-whatsapp"></i>
-                    Quero Ser Defendido Agora
+                    Solicitar Consulta via WhatsApp
                 </a>
             </div>
         </div>
@@ -1197,33 +353,33 @@
                 <div class="testimonial">
                     <div class="testimonial-content">
                         <i class="fas fa-quote-left quote-icon"></i>
-                        <p>"Dr. Ian conseguiu minha absolvição em caso de homicídio no Tribunal do Júri. Sua preparação e técnica foram decisivas. Recomendo 100%."</p>
+                        <p>"Profissional com sólida formação acadêmica e técnica jurídica diferenciada. Atendimento ético e orientação clara."</p>
                     </div>
                     <div class="testimonial-author">
                         <strong>M.S.</strong>
-                        <span>Cliente - Absolvido no Júri</span>
+                        <span>Cliente - Consultoria Criminal</span>
                     </div>
                 </div>
                 
                 <div class="testimonial">
                     <div class="testimonial-content">
                         <i class="fas fa-quote-left quote-icon"></i>
-                        <p>"Em 48h Dr. Ian reverteu minha prisão preventiva. Conhecimento técnico excepcional e atendimento humanizado. Profissional diferenciado."</p>
+                        <p>"Advogado extremamente competente e atencioso. Orientação clara e eficiente, sempre dentro dos parâmetros éticos."</p>
                     </div>
                     <div class="testimonial-author">
                         <strong>R.L.</strong>
-                        <span>Cliente - Liberdade Provisional</span>
+                        <span>Cliente - Direito Digital</span>
                     </div>
                 </div>
                 
                 <div class="testimonial">
                     <div class="testimonial-content">
                         <i class="fas fa-quote-left quote-icon"></i>
-                        <p>"Caso complexo de tráfico, Dr. Ian conseguiu desclassificação para porte. Evitou anos de prisão. Estratégia brilhante."</p>
+                        <p>"A experiência do Dr. Ian e sua formação acadêmica proporcionaram orientação jurídica de qualidade."</p>
                     </div>
                     <div class="testimonial-author">
                         <strong>A.C.</strong>
-                        <span>Cliente - Desclassificação</span>
+                        <span>Cliente - Orientação Jurídica</span>
                     </div>
                 </div>
             </div>
@@ -1234,7 +390,7 @@
     <section class="ethics-compliance">
         <div class="container">
             <div class="ethics-content">
-                <h3>🛡️ Compromisso Ético e Profissional</h3>
+                <h3>Compromisso Ético e Profissional</h3>
                 <div class="ethics-grid">
                     <div class="ethics-item">
                         <i class="fas fa-certificate"></i>
@@ -1258,7 +414,7 @@
                     </div>
                 </div>
                 <div class="disclaimer">
-                    <p><strong>Aviso Importante:</strong> As informações contidas neste site possuem caráter meramente informativo. O resultado de qualquer processo ou procedimento jurídico depende de análise específica de cada caso e não pode ser garantido. A eficácia da orientação jurídica está sujeita a diversos fatores processuais e probatórios. Entre em contato com o Dr. Ian Orosz para orientação personalizada sobre sua situação jurídica específica, sempre respeitando os preceitos éticos da advocacia.</p>
+                    <p><strong>Aviso Importante:</strong> As informações contidas neste site possuem caráter meramente informativo. O resultado de qualquer processo ou procedimento jurídico depende de análise específica de cada caso e não pode ser garantido. A eficácia da orientação jurídica está sujeita a diversos fatores processuais e probatórios. Entre em contato com Dr. Ian Orosz para orientação personalizada sobre sua situação jurídica específica, sempre respeitando os preceitos éticos da advocacia.</p>
                 </div>
             </div>
         </div>
@@ -1273,8 +429,8 @@
             </div>
             <div class="contact-content">
                 <div class="contact-info">
-                    <h3>🚑 Caso de Flagrante ou Urgência Criminal?</h3>
-                    <p>Não perca tempo! <strong>A cada hora que passa, suas chances diminuem.</strong> Dr. Ian atende 24h e já conseguiu liberdade para centenas de clientes em flagrante.</p>
+                    <h3>Precisa de Orientação Jurídica?</h3>
+                    <p>Entre em contato com Dr. Ian Orosz para consultoria jurídica, orientação especializada ou atendimento para emergências.</p>
                     
                     <div class="contact-methods">
                         <div class="contact-method">
@@ -1284,8 +440,8 @@
                             <div class="method-info">
                                 <h4>WhatsApp Profissional</h4>
                                 <p>+55 11 98260-9738</p>
-                                <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20estou%20em%20situação%20de%20flagrante%20e%20preciso%20de%20ajuda%20urgente" target="_blank" class="method-link">
-                                    Falar Agora - Flagrante
+                                <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20orientação%20jurídica" target="_blank" class="method-link">
+                                    Conversar com Dr. Ian
                                 </a>
                             </div>
                         </div>
@@ -1345,9 +501,9 @@
                                 <i class="fas fa-clock"></i>
                             </div>
                             <div class="method-info">
-                                <h4>Urgências 24h</h4>
-                                <p>Flagrantes e Urgências Criminais</p>
-                                <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20tenho%20uma%20urgência%20criminal%20que%20precisa%20de%20atendimento%20imediato" target="_blank" class="method-link">
+                                <h4>Emergências 24h</h4>
+                                <p>Atendimento para Emergências</p>
+                                <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20atendimento%20jurídico%20urgente" target="_blank" class="method-link">
                                     Atendimento Urgente
                                 </a>
                             </div>
@@ -1357,18 +513,18 @@
                 
                 <div class="contact-cta">
                     <div class="cta-box">
-                        <h3>🔴 Precisa de Defesa Agora?</h3>
-                        <p><strong>Flagrante, Mandado, Processo?</strong> Não enfrente sozinho. Dr. Ian tem <strong>95% de êxito</strong> e atende 24h.</p>
-                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20defesa%20criminal%20urgente" 
+                        <h3>Consultoria Jurídica</h3>
+                        <p>Para consultoria jurídica especializada, orientação ou atendimento em questões jurídicas, entre em contato via WhatsApp.</p>
+                        <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20consultoria%20jurídica" 
                            target="_blank" class="cta-primary">
                             <i class="fab fa-whatsapp"></i>
-                            Quero Minha Defesa
+                            Falar com Dr. Ian
                         </a>
-                        <p class="availability">Disponível para atendimento e urgências 24h</p>
+                        <p class="availability">Disponível para atendimento e emergências 24h</p>
                         
                         <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(212, 175, 55, 0.3);">
-                            <h4>🚨 Urgência Criminal?</h4>
-                            <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20tenho%20uma%20urgência%20criminal%20que%20precisa%20de%20atendimento%20imediato" 
+                            <h4>Emergência?</h4>
+                            <a href="https://wa.me/5511982609738?text=Dr.%20Ian,%20preciso%20de%20atendimento%20jurídico%20urgente" 
                                target="_blank" class="cta-urgent">
                                 <i class="fas fa-exclamation-triangle"></i>
                                 Atendimento 24h
@@ -1387,8 +543,8 @@
                 <div class="footer-brand">
                     <h3>Dr. Ian Orosz</h3>
                     <p>Advogado Criminalista</p>
-                    <p>Especialista em Direito Criminal</p>
-                    <p>Pós-Graduado em Criminologia pela PUC-RS</p>
+                    <p>Especialista em Direito Penal e Criminologia</p>
+                    <p>Pós-Graduado pela PUC-RS</p>
                 </div>
                 <div class="footer-contact">
                     <h4>Contato Profissional</h4>
@@ -1403,8 +559,8 @@
                         <li>Direito Penal e Criminologia</li>
                         <li>Tribunal do Júri</li>
                         <li>Direito Digital</li>
-                        <li>Consultoria Jurídica Criminal</li>
-                        <li>Atendimento 24h Urgências</li>
+                        <li>Consultoria Jurídica</li>
+                        <li>Atendimento 24h</li>
                     </ul>
                 </div>
             </div>
@@ -1425,63 +581,6 @@
     </div>
 
     <!-- JavaScript -->
-    <script>
-        // Menu mobile toggle
-        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-        const navMenu = document.querySelector('.nav-menu');
-
-        if (mobileMenuToggle && navMenu) {
-            mobileMenuToggle.addEventListener('click', () => {
-                navMenu.classList.toggle('active');
-            });
-        }
-
-        // Smooth scroll para links internos
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Efeito de scroll no header
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('.header');
-            if (header) {
-                if (window.scrollY > 100) {
-                    header.style.background = 'rgba(10, 17, 61, 0.98)';
-                    header.style.backdropFilter = 'blur(10px)';
-                } else {
-                    header.style.background = 'var(--primary-blue)';
-                    header.style.backdropFilter = 'none';
-                }
-            }
-        });
-
-        // Animação de fade-in ao scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
-                }
-            });
-        }, observerOptions);
-
-        // Observar elementos para animação
-        document.querySelectorAll('.expertise-card, .testimonial, .contact-method').forEach(el => {
-            observer.observe(el);
-        });
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
